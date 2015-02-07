@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Follows screen1.xml layout. Third screen shown to user. -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:layout_width="fill_parent"
               android:layout_height="fill_parent"
@@ -6,9 +7,9 @@
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="When today?"
-            android:id="@+id/when" android:layout_weight="0.10"
-            android:textSize="40dp" android:textAlignment="center" android:enabled="true"
+            android:text="@string/question_3"
+            android:id="@+id/question_3" android:layout_weight="0.10"
+            android:textSize="40sp" android:textAlignment="center" android:enabled="true"
             android:layout_gravity="center_horizontal"/>
     <LinearLayout
             android:orientation="vertical"
@@ -19,8 +20,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="Click the left to show your availability"
-                android:id="@+id/textView1" android:layout_gravity="center_horizontal" android:textSize="16dp"/>
+                android:text="@string/screen2_directions"
+                android:layout_gravity="center_horizontal" android:textSize="16sp"/>
     </LinearLayout>
     <LinearLayout
             android:orientation="horizontal"
@@ -30,12 +31,12 @@
         <CheckBox
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="In 10 minutes"
-                android:id="@+id/in10" android:checked="false" android:clickable="true"/>
+                android:text="@string/time1"
+                android:id="@+id/time1_client" android:checked="false" android:clickable="true"/>
         <CheckBox
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/in10server" android:checked="false"/>
+                android:id="@+id/time1_server" android:checked="false"/>
     </LinearLayout>
     <LinearLayout
             android:orientation="horizontal"
@@ -45,12 +46,12 @@
         <CheckBox
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="In 20 minutes"
-                android:id="@+id/in20" android:checked="false" android:clickable="true" android:textSize="16dp"/>
+                android:text="@string/time2"
+                android:id="@+id/time2_client" android:checked="false" android:clickable="true" android:textSize="16sp"/>
         <CheckBox
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/in20server" android:checked="false"/>
+                android:id="@+id/time2_server" android:checked="false"/>
     </LinearLayout>
     <LinearLayout
             android:orientation="horizontal"
@@ -60,12 +61,12 @@
         <CheckBox
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="In 30 minutes"
-                android:id="@+id/in30" android:checked="false" android:clickable="true" android:textSize="16dp"/>
+                android:text="@string/time3"
+                android:id="@+id/time3_client" android:checked="false" android:clickable="true" android:textSize="16sp"/>
         <CheckBox
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/in30Server" android:checked="false"/>
+                android:id="@+id/time3_server" android:checked="false"/>
     </LinearLayout>
     <LinearLayout
             android:orientation="horizontal"
@@ -75,27 +76,27 @@
         <CheckBox
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="In 45 minutes"
-                android:id="@+id/in40" android:layout_gravity="center_vertical" android:checked="false"
-                android:clickable="true" android:textSize="16dp"/>
+                android:text="@string/time4"
+                android:id="@+id/time4_client" android:layout_gravity="center_vertical" android:checked="false"
+                android:clickable="true" android:textSize="16sp"/>
         <CheckBox
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/in40server" android:layout_gravity="center_vertical" android:checked="false"/>
+                android:id="@+id/time4_server" android:layout_gravity="center_vertical" android:checked="false"/>
     </LinearLayout>
     <LinearLayout
             android:orientation="horizontal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:layout_gravity="center_horizontal">
+
         <CheckBox
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="In 60 minutes"
-                android:id="@+id/in60" android:checked="false" android:clickable="true" android:textSize="16dp"/>
+                android:text="@string/time5"
+                android:id="@+id/time5_client" android:checked="false" android:clickable="true" android:textSize="16sp"/>
         <CheckBox
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/in60server" android:checked="false"/>
+                android:id="@+id/time5_server" android:checked="false"/>
     </LinearLayout>
 </LinearLayout>
-

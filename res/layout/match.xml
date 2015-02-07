@@ -12,14 +12,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="John Doe"
+            android:text="@string/match_name"
             android:id="@+id/name" android:layout_gravity="center_horizontal" android:layout_weight="0.10"
             android:textSize="20sp" android:textAlignment="center"/>
     <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Interests: "
+            android:text="@string/match_info"
             android:id="@+id/interests" android:layout_weight="0.68"/>
     <LinearLayout
             android:orientation="horizontal"
@@ -29,12 +29,12 @@
         <Button
                 android:layout_width="150dp"
                 android:layout_height="100dp"
-                android:text="Who else?"
+                android:text="@string/match_no"
                 android:id="@+id/nextPerson" android:background="#ffc50000"/>
         <Button
                 android:layout_width="150dp"
                 android:layout_height="100dp"
-                android:text="Let&apos;s Do It!"
+                android:text="@string/match_yes"
                 android:id="@+id/goTime" android:background="#ff00cc00"/>
     </LinearLayout>
 </LinearLayout>

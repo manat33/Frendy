@@ -17,7 +17,7 @@ public class Activity2 extends Activity implements View.OnClickListener {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
-        coffeeButton = (Button)findViewById(R.id.coffee);
+        coffeeButton = (Button)findViewById(R.id.option_1);
         coffeeButton.setOnClickListener(this);
     }
 

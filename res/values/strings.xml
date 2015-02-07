@@ -1,4 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">frendy</string>
+
+    <!-- General-->
+    <string name="app_name">Frendy</string>
+
+    <!-- Screen 0 (main)-->
+    <string name="option_1">Coffee</string>
+    <string name="option_2">Food</string>
+    <string name="question_1">I would like&#8230;</string>
+
+    <!-- Screen 1 -->
+    <string name="question_2">And I want to only spend&#8230;</string>
+    <string name="length1">0&#8211;45 minutes</string>
+    <string name="length2">45+ minutes</string>
+
+    <!-- Screen 2 -->
+    <string name="question_3">When today?</string>
+    <string name="screen2_directions">Click the left to show your availability.</string>
+    <string name="time1">In 10 minutes</string>
+    <string name="time2">In 20 minutes</string>
+    <string name="time3">In 30 minutes</string>
+    <string name="time4">In 40 minutes</string>
+    <string name="time5">In 50 minutes</string>
+
+    <!-- Match screen-->
+    <string name="match_name">John Doe</string>
+    <string name="match_info">Interests:</string>
+    <string name="match_yes">Let\&apos;s do it!</string>
+    <string name="match_no">Who else?</string>
+
 </resources>
