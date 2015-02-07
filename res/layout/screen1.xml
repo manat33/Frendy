@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:weightSum="1" android:orientation="vertical">
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="and I want to only spend..."
+            android:id="@+id/timeSpend" android:layout_weight="0.10"
+            android:textSize="40dp" android:textAlignment="center" android:enabled="true"
+            android:layout_gravity="center_horizontal"/>
+    <Button
+            android:layout_width="184dp"
+            android:layout_height="177dp"
+            android:text="0-45 minutes"
+            android:id="@+id/shortTime" android:layout_gravity="center_horizontal"/>
+    <Button
+            android:layout_width="181dp"
+            android:layout_height="174dp"
+            android:text="45 + minutes"
+            android:id="@+id/longTime" android:layout_gravity="center_horizontal" android:layout_weight="0.07"/>
+</LinearLayout>
+
